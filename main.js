@@ -1,7 +1,7 @@
 const queueName = "inputQueue"
 
 async function main() {
-    console.log("Inside main")
+    console.log("Inside main at "+ new Date(Date.now()).toLocaleString('en-GB'));
     console.log(queueName)
 }
 
